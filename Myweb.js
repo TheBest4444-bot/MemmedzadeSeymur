@@ -59,3 +59,18 @@ window.addEventListener("load", ()=>{
     }
 
 });
+
+function toggleMenu() {
+
+    const sidebar = document.querySelector(".left");
+    const icon = document.getElementById("menuIcon");
+
+    sidebar.classList.toggle("active");
+
+    if (sidebar.classList.contains("active")) {
+        icon.innerHTML = "✕";
+    } else {
+        icon.innerHTML = "☰";
+    }
+
+}
