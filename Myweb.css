@@ -1,6 +1,7 @@
 .container {
     display: flex;
     min-height: 100vh;
+    background-color: #4D2713;
 }
 
 .right {
@@ -19,6 +20,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    background-color: #4D2713;
 }
 
 /*Profil hissesi */
